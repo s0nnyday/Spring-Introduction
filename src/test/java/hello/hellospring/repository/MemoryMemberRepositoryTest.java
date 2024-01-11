@@ -34,11 +34,6 @@ class MemoryMemberRepositoryTest {
     }
 
     @Test
-    void findById() {
-
-    }
-
-    @Test
     void findByName() {
         //given
         Member member1 = new Member();
