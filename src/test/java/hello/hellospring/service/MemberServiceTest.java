@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MemberServiceTest {
-
+    // 메모리, JVM 안에서 끝나는 테스트
     MemberService memberService;
     MemoryMemberRepository memberRepository;
 
